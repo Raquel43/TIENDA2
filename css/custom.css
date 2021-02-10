@@ -183,6 +183,7 @@ ul {
   
 }
 .card {
+  display: inline;
   text-align: center;
   border: 1px solid #e1e1e1;
   background: white;

@@ -270,7 +270,7 @@ function getCursos() {
             </div>
                 <p class="precio">${articulo.price}€ <span class="u-pull-right ">${articulo.priceOffer}€</span></p>
                 <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="${articulo.id}">Agregar Al Carrito</a>
-            </div>
+           
         `;
             container.appendChild(row);
               
@@ -306,7 +306,7 @@ const productos = [];
 fetch("./data/cursos.json")
     .then(cursos =>cursos.json())
     .then(data => productos.push(...data));
-console.log("que",productos);
+console.log("que cursos tengo?",productos);
 
 function findMatches(palabra,productos) {
   return productos.filter(articulo => {
@@ -318,18 +318,17 @@ function displayMatches(e) {
   const matchedArray = findMatches(e.target.value, productos);
   const html = matchedArray.map(articulo => {
       return `
-      <div style="display:block" class="card">
+      <div class="card">
       <img src="img/${articulo.img}" class="imagen-curso u-full-width">
       <div class="info-card">
           <h4>${articulo.title}</h4>
           <p class="profesor">${articulo.teacher}</p>
-          <div id="stars">${pintaEstrella(articulo.ratings)}
-      
-      </div>
+          <div id="stars">${pintaEstrella(articulo.ratings)}</div>
           <p class="precio">${articulo.price}€ <span class="u-pull-right ">${articulo.priceOffer}€</span></p>
           <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="${articulo.id}">Agregar Al Carrito</a>
       </div>
-      <div>
+      </div>
+      
   `;
   }).join('');
   console.log(html);
