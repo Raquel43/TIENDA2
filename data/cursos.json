@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "title": "HTML5, CSS3, JavaScript para Principiantes",
+    "teacher": "Emilio Valdivia",
+    "ratings":2.8,
+    "price": 200,
+    "priceOffer": 100,
+    "img": "curso1.jpg"
+  },
+  {
+    "id": 2,
+    "title": "Curso de Comida Vegetariana",
+    "teacher": "Juan Antonio Alarcón",
+    "ratings":2,
+    "price": 300,
+    "priceOffer": 270,
+    "img": "curso2.jpg"
+  },
+  {
+    "id": 3,
+    "title": "Guitarra para Principiantes",
+    "teacher": "Luis Francisco Alba",
+    "ratings":2.5,
+    "price": 250,
+    "priceOffer": 225,
+    "img": "curso3.jpg"
+  },
+  {
+    "id": 4,
+    "title": "Huerto en tu casa",
+    "teacher": "Luis Adrián",
+    "ratings":3,
+    "price": 400,
+    "priceOffer": 360,
+    "img": "curso4.jpg"
+  },
+  {
+    "id": 5,
+    "title": "Decoración con productos de tu hogar",
+    "teacher": "Alejandro Córdoba",
+    "ratings":4.5,
+    "price": 275,
+    "priceOffer": 247.5,
+    "img": "curso5.jpg"
+  },
+  {
+    "id": 6,
+    "title": "Diseño Web para Principiantes",
+    "teacher": "Ivan Heredia",
+    "ratings":2.5,
+    "price": 450,
+    "priceOffer": 405,
+    "img": "curso6.jpg"
+  },
+  {
+    "id": 7,
+    "title": "Comida Mexicana para principiantes",
+    "teacher": "Juan pedro",
+    "ratings":4.5,
+    "price": 150,
+    "priceOffer": 75,
+    "img": "curso7.jpg"
+  },
+  {
+    "id": 8,
+    "title": "Calistenia, ponte fuerte con el mejor preparador",
+    "teacher": "Alex de la iglesia",
+    "ratings":5,
+    "price": 260,
+    "priceOffer": 130,
+    "img": "curso8.jpg"
+  }
+]
